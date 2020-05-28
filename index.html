@@ -1,8 +1,44 @@
 <html>
   <header>
     <title>Google</title>
+
+    <style>
+      .center-element {
+        text-align: center;
+        position: relative;
+        top: 160px;
+        margin: 0 auto;
+        max-width: 450px;
+      }
+
+      #main-image {
+        padding: 10px;
+      }
+
+      #search-bar {
+        border-radius: 50px;
+        margin-bottom: 10px;
+        width: 400px;
+        height: 30px;
+      }
+    </style>
   </header>
+
   <body>
-    <h1>Hello World!</h1>
+    <div class="center-element">
+      <div id="main-image">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google Logo"
+        />
+      </div>
+
+      <form class="search-form">
+        <input id="search-bar" />
+        <br />
+        <button id="search-button">Google Search</button>
+        <button>I'm Feeling Lucky</button>
+      </form>
+    </div>
   </body>
 </html>
